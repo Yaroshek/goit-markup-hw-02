@@ -6,7 +6,7 @@ a{
     color: inherit;
 }
 .head{
-    font-family:"Roboto" sans-serif;
+    font-family: "Roboto" sans-serif;
     color:#434455;
     background-color: #FFFFFF;
 }
@@ -22,14 +22,16 @@ a{
 }
 .text-blue {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
 .link{
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -38,6 +40,9 @@ a{
 .page-nav .link:hover,
 .page-nav .link:focus {
     color: #404BBF;
+}
+.page-address{
+    font-style: normal;
 }
 .address{
     font-family: "Roboto", sans-serif;
