@@ -5,12 +5,17 @@ a{
     text-decoration: none;
     color: inherit;
 }
-
+body{
+    font-family:"Roboto" sans-serif;
+    color:#434455;
+    background-color: #FFFFFF;
+}
 /*HEADER STYLES*/
 .page-logo {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
@@ -36,6 +41,7 @@ a{
 }
 .address{
     font-family: "Roboto", sans-serif;
+    font-style: normal;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -49,13 +55,17 @@ a{
 
 /*MAiN STYLES*/
 /*  section hero*/
+.hero-section{
+    background-color: #2e2f42;
+}
 .hero-text{
     font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
+        color:#FFFFFF;
 }
 .hero-button{
     font-family: "Roboto", sans-serif;
@@ -102,14 +112,21 @@ h2{
 }
 
 /*SECTION TEAM*/
+.head-team{
+    background-color: #f4f4fd;
+}
 .section-team{
     font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
+}
+.team-list{
+    background-color: #FFFFFF;
 }
 .team-names{
 font-family: "Roboto", sans-serif;
@@ -132,10 +149,11 @@ font-family: "Roboto", sans-serif;
     font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .portfolio-list{
@@ -146,7 +164,7 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-portfolio-desc{
+.portfolio-desc{
     font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
@@ -155,11 +173,14 @@ portfolio-desc{
         color: #434455;
 }
 /*FOOTER*/
+.finish{
+    background-color: #2e2f42;
+}
 .logo-footer{
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
