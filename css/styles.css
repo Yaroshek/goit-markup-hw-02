@@ -6,7 +6,7 @@ a{
     color: inherit;
 }
 .head{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     color:#434455;
     background-color: #FFFFFF;
 }
